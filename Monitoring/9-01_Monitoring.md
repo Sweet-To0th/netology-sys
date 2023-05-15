@@ -48,4 +48,4 @@
 
 *Приложите скриншоты.*
 
-<a href="https://ibb.co/TMWnm7P"><img src="https://i.ibb.co/yF4MWZg/2023-05-15-14-00-34.png" alt="2023-05-15-14-00-34" border="0"></a>
+<a href="https://ibb.co/TMWnm7P"><img src="https://i.ibb.co/TMWnm7P/2023-05-15-14-00-34.png" alt="2023-05-15-14-00-34" border="0"></a>
