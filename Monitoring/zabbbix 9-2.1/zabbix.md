@@ -14,6 +14,8 @@
 1. Прикрепите в файл README.md скриншот авторизации в админке
 2. Приложите в файл README.md текст использованных команд в GitHub
 
+ответ
+
 <a href="https://ibb.co/C8QfRcm"><img src="https://i.ibb.co/LR13VFY/2023-06-09-19-46-14.png" alt="2023-06-09-19-46-14" border="0"></a>
 
 sudo apt install postgresql
@@ -58,3 +60,23 @@ sudo systemctl enable zabbix-server apache2 # zabbix-agent
 2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 4. Приложите в файл README.md текст использованных команд в GitHub
+
+ответ
+
+<a href="https://ibb.co/WG48Xjk"><img src="https://i.ibb.co/ckSf9V6/2023-06-09-19-59-55.png" alt="2023-06-09-19-59-55" border="0"></a>
+
+<a href="https://ibb.co/SsJXKwb"><img src="https://i.ibb.co/cgxcNh0/2023-06-09-20-04-02.png" alt="2023-06-09-20-04-02" border="0"></a>
+
+<a href="https://ibb.co/LPkQNx8"><img src="https://i.ibb.co/FWxsH5K/2023-06-09-20-02-56.png" alt="2023-06-09-20-02-56" border="0"></a>
+
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4%2Bdebian11_all.deb
+
+dpkg -i zabbix-release_6.0-4+debian11_all.deb
+
+apt update
+
+sudo apt install zabbix-agent -y
+
+sudo systemctl restart zabbix-agent
+
+sudo systemctl enable zabbix-agent
